@@ -1,0 +1,24 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  .header-right {
+    float: left;
+  }
+  .active {
+    background-color: black;
+    color: white;
+    margin:3px ;
+    text-decoration: none;
+  }
+  .linkwidth{
+      width: 10px;
+  }
+  .addmovieform{
+      margin-left: 500px;
+  }
+  body{
+      background-color: coral;
+  }
+  

@@ -1,0 +1,35 @@
+-- second query
+select students.name,teachers.name,subjects.name,grades.grade from 
+students inner join grades on grades.studentid=students.id
+inner join teachers on grades.teacherid=teachers.tid
+inner join subjects on grades.subjectid=subjects.subid
+where grades.grade='B';
+
+-- -- first query 
+select teachers.name,teachers.tid from 
+teachers,subjects,grades where grades.teacherid=teachers.tid and 
+grades.subjectid=subjects.subid having count(grades.subjectid)>=1;
+
+
+
+ select * from grades;
+
+
+-- fifth query 
+select students.id,students.name,teachers.tid,teachers.name from 
+students inner join grades on grades.studentid=students.id
+inner join teachers on grades.teacherid=teachers.tid
+order by grades.marks desc;
+
+
+-- third Query 
+select * from subjects left join grades on grades.subjectid = subjects.subid
+where grades.subjectid is null; 
+
+-- 4th query
+select students.name as student,teachers.name as teacher from students
+join grades on grades.studentid=students.id
+join teachers on grades.teacherid=teachers.tid
+where grades.studentid in 
+(select studentid from grades group by studentid having count(*)=1)
+limit 2;

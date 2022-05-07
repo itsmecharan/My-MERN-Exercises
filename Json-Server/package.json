@@ -1,0 +1,12 @@
+{
+  "name": "Json-Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "json-server":"json-server --watch db.json --port 8000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

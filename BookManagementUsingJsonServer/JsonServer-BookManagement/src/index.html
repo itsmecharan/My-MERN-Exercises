@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Book Management System</title>
+</head>
+<body>
+
+<div class="header">
+        <center>
+            <div class="heading">
+                Book Management System
+            </div>
+        </center>
+        
+            <br>
+            <br>
+            <div class="links">
+              <a href="index.html">Home</a>
+              |
+            <a href="BookList.html">Book List</a>
+                |
+            <a href="AddBooks.html">Add Books</a>
+            </div>
+</div>
+
+                <br><br>
+    
+       <center>
+                    <select class="dropdown" id="select1">
+                        <option value="idsearch">Id Search</option>
+                        <option value="titlesearch">Title Search</option>
+                        <option value="searchbyauthor">Search by Author</option>
+                        <option value="minrating">Min Rating</option>
+                        <option value="pricerange">Min Price</option>
+                        <option value="pricerange">Max Price</option>
+
+                    </select>
+                    
+            <input type="text" placeholder="Title/Author/Price..." class="searchedtxt" id="searchedtxt">
+            <button class="searchbtn" type="submit" id="searchbtn">Search</button>
+
+            </center>
+<br>
+<center style="font-size: 20px;font-weight: bold;">Search Books Here.......</center>
+<br>
+<div id="searchedbooks" class="searchedbooks" style="font-size: 20px; font-weight: bold; 
+margin-left: 400px; ">
+</div>
+
+
+<br><br>
+            <center>
+                
+                <table  id="displaySearchedBooks" class="displaySearchedBooks">
+
+              </table>
+             </center>
+<br>
+    <center>
+        <div id="notfound" style="font-size: 35px;">
+
+        </div>
+    </center>
+
+    <script src="BookManager.ts"></script>
+
+</body>
+</html>

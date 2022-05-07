@@ -1,0 +1,44 @@
+
+div.links{
+    float: right;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+div.heading{
+    font-size: 50px;
+    
+}
+div.header{
+    
+    background-color: coral;
+    overflow: hidden;
+}
+body{
+    background-color:burlywood;
+}
+
+table {
+    border: 2px solid black;
+      }
+  th, td {
+    padding: 15px;
+    border: 2px solid seagreen;
+  }
+input.text{
+    border: 2px solid black;
+    padding: 10px;
+}
+button.searchbtn{
+    border: 2px solid black;
+    padding: 10px;
+}
+select.dropdown{
+    border: 2px solid black;
+    padding: 10px;
+}
+input,button.addbooks{
+    border: 2px solid black;
+    padding: 10px;
+}

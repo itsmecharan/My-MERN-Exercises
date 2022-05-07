@@ -1,0 +1,139 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    padding: 10px;  
+  }
+  .grid-item {
+    background-color:gold;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    margin-right:25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px gray;
+
+    
+  }
+  
+.del{
+    width:50px;
+    border-radius: 15px;
+    background-color: indianred;
+}
+
+div.addbook{
+    margin-left: 600px;
+}
+.heading{
+    margin-left: 100px;
+}
+table,tr,th,td{
+    border:2px solid;
+}
+button{
+    cursor: pointer;
+}
+.header{
+    background-color: gold;
+    overflow: hidden;
+    
+}
+.link{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    float: right;
+    margin: 10px;
+    padding: 3px;
+}
+.link:hover{
+    background-color: slategray;
+    border-radius: 25px;
+}
+body{
+    font-family: cursive;
+}
+.search{
+    margin-left: 500px;
+    position: absolute;
+}
+.mininput,.maxinput{
+    border:none;
+border:2px solid black;
+width:70px;
+height:30px;
+margin-left:10px;
+margin-right:10px;
+display: inline;
+border-radius: 15px;
+
+}
+.searchtxt{
+    border:none;
+border:2px solid black;
+width:200px;
+height:30px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom: 0px;
+
+border-radius: 15px;
+
+}
+.selectbox{
+    border:none;
+border:2px solid black;
+width:100px;
+height:35px;
+margin-left:10px;
+margin-right:10px;
+
+border-radius: 15px;
+
+}
+.searchbtn{
+    border-radius:15px;
+    margin-right:10px;
+
+    
+}
+.addbooks{
+    border:none;
+    border-bottom:3px solid black;
+    width:200px;
+    margin-left:15px;
+}
+label{
+    margin-right:15px;
+}
+.addbooksbtn{
+    border: 2px solid blue;
+    border-radius: 15px;
+    width: 80px;
+    height:30px;
+    margin-left:150px;
+}
+.Booksheading{
+    margin-left:5px;
+    font-size: 35px;
+    
+}
+input[type="radio"]{
+    display:none;
+}
+.star{
+    cursor:pointer;
+    transition: color 200ms;
+}
+.register,.login{
+    margin-left: 700px;
+}
+.booklistmsg{
+    font-size: 40px;
+    margin-left:600px;
+}
+.desc,.descimage{
+    margin:5px;
+}

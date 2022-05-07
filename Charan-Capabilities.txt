@@ -1,0 +1,33 @@
+-> Bundle all Modules of an application together.
+
+->Implement visual design Analysis-style-guide/pixel 
+   perfect design/sass
+
+->Implement sass for responsive design and rtl
+
+->Organize your code
+
+->Create a DB,collection and work on modifying data 
+  as per requirement
+
+->Understand Node.js
+
+->Create end-to-end dynamic rest api's
+
+->Ability to understand Atomic design
+
+->Create First React app
+
+->understand and implement react concepts
+
+->Develop responsive web pages using any UI Framework
+
+->Creating asynchronous and event based programs
+
+->Use Git And visual studio code extensively for 
+  developing web aplication
+
+->Use Redux for state management of react application
+
+->Understand advanced react concepts and when to use 
+  same.

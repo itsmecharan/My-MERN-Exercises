@@ -1,0 +1,55 @@
+function add(a,b){
+  return new Promise((fullfill,reject)=>{
+    setTimeout(()=>{
+      if(a>100 || b>100){
+        reject("Numbers should be less than 100")
+      }else{
+        fullfill(a+b)
+      }
+    },3000)
+  })
+}
+
+function oddOrEven(s){
+  return new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+     if(s%2){
+       resolve("ODD")
+     }else{
+       reject("EVEN")
+     }
+    },3000)
+  })
+}
+
+/*
+add(5,20)
+ .then((sum)=>{
+   console.log("Sum is ",sum);
+   return oddOrEven(sum);
+ })
+ .then((result)=>{
+   console.log(result)
+  
+ })
+ .catch(err=>{
+   console.log("ERROR ",err);
+ })
+
+*/
+ 
+ async function main(){
+   try{
+   let sum = await add(50,20);
+   console.log(sum);
+   let result = await oddOrEven(sum)
+   console.log(result);
+   }catch(err){
+    console.log("ERROR", err)
+   }
+ }
+ main();
+
+
+
+ 

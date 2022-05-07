@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./header";
+ 
+.container {
+    // @extend header;
+    //  @include flexCenter(row,blue);
+    height: 100%;
+    // background:green;
+    // - + * / arithmetic operations
+}
+body{
+    direction: rtl;
+}

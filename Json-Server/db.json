@@ -1,0 +1,49 @@
+{
+  "Books": [
+    {
+      "bookid": "101",
+      "booktitle": "Two States",
+      "bookauthor": "Chetan Bhagat",
+      "bookrating": "8.0",
+      "bookprice": "450",
+      "bookdetails": "Book On Love Story",
+      "id": 1
+    },
+    {
+      "bookid": "102",
+      "booktitle": "Orient Express",
+      "bookauthor": "Agatha Christie",
+      "bookrating": "7.5",
+      "bookprice": "250",
+      "bookdetails": "Book On Crime Mistery",
+      "id": 2
+    },
+    {
+      "bookid": "103",
+      "booktitle": "God Of Horror",
+      "bookauthor": "Ajith Ram",
+      "bookrating": "8.8",
+      "bookprice": "700",
+      "bookdetails": "Book On Life",
+      "id": 3
+    },
+    {
+      "bookid": "104",
+      "booktitle": "When You Succeed",
+      "bookauthor": "Ramji Singh",
+      "bookrating": "8.3",
+      "bookprice": "200",
+      "bookdetails": "Book On  success",
+      "id": 4
+    },
+    {
+      "bookid": "105",
+      "booktitle": "The Accursed God",
+      "bookauthor": "Vivek Datta",
+      "bookrating": "8.8",
+      "bookprice": "450",
+      "bookdetails": "Book On Mythology",
+      "id": 5
+    }
+  ]
+}

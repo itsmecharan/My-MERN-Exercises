@@ -1,0 +1,22 @@
+
+    length()
+    charAt()
+    indexOf()
+    compareTo()
+    equals()
+
+
+A private school demands for a console based system for saving details of the student and 
+the school fees submitted by the student so that it will become easy to update the fee details 
+and to find out what all students need to be contacted for fees to clear pending dues.
+Student:
+Id, Name, class, phonedetails, Total_Fees_per_Year, Fees-Submitted
+1. Add details of a student.
+2. Sort the students on the base of name
+3. Display students with pending fees
+4. Update the submitted-fee for a particular student.
+5. Display all students of particular class
+6. Exit
+
+Email amarendra.gopalakrishna@mindtree.com with subject line "Authenticator issue" or "Unable to login to PeopleHub" . 
+Outlook issues, JIRA issues and MS Teams issues will be resovved tomorrow.

@@ -1,0 +1,76 @@
+
+div.links{
+    float: right;
+    font-size: 25px;
+    
+}
+a:hover{
+    
+    color:black;
+}
+a{
+    text-decoration: none;
+    color: khaki;
+}
+
+div.heading{
+    font-size: 50px;
+    
+}
+div.header{
+    
+    background-color: brown;
+    overflow: hidden;
+}
+body{
+    background-color:burlywood;
+}
+
+table {
+    border: 2px solid black;
+      }
+  th, td {
+    padding: 10px;
+    border: 2px solid brown;
+  }
+
+::placeholder { 
+    color:khaki;
+    opacity: 1; 
+  }
+
+.addbooksbtn,.addbooks{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: brown;
+    
+}
+
+button.delete-button{
+    background-color: brown;
+    color: seashell;
+}
+button.delete-button:hover{
+    color:black;
+}
+.dropdown,.searchedtxt,.searchbtn{
+    
+        display:inline-block ;
+        border: 2px solid black;
+        padding: 10px;
+        background-color: brown; 
+        color: khaki;
+    
+}
+
+div.booklist{
+    margin-left: 380px;
+    font-size: 40px;
+    
+}
+.searchbtn:hover,.dropdown:hover{
+    color: olivedrab;
+}
+.addbooksbtn:hover{
+    color:khaki
+}
